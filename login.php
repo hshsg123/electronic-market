@@ -9,7 +9,7 @@ if (isset($_COOKIE['user']) && $_COOKIE['user'] == 'I love Elight volunteers fam
 
 if (isset($_POST['password']))
 {
-    if ($_POST['password'] ==  'elight2016')
+    if ($_POST['password'] ==  'xxxxxxxx')
     {
         $captchaCode = $_POST['captchaCode'];
 

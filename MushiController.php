@@ -5,8 +5,8 @@ require 'config.php';
 class MushiController
 {
     private $cookie = 'cookie.txt'; //cookie存放目录
-    private $username = 'scutdxxywlwm';
-    private $password = '25d55ad283aa400af464c76d713c07ad';
+    private $username = '';
+    private $password = '';
     private $static = 0; //登录状态
     private $activityId;
     private $picture_tmp_path;
